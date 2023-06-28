@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shoppling List</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <img src="./images/notes.png" alt="note image" />
+        <h1>Shopping List</h1>
+      </header>
+
+      <!-- item-form -->
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            placeholder="Enter Item"
+          />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-plus"></i> Add Item
+          </button>
+        </div>
+      </form>
+
+      <!-- Filter items -->
+      <div id="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          placeholder="Filter Items"
+        />
+      </div>
+
+      <!-- item-list -->
+      <ul class="items" id="item-list">
+        <!-- <li>
+          Apples
+          <button class="remove-item btn-link">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Oranges
+          <button class="remove-item btn-link">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Milk
+          <button class="remove-item btn-link">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li> -->
+      </ul>
+
+      <!-- button clear -->
+      <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
