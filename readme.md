@@ -1,3 +1,3 @@
 #Shopping List Practice
 
-Shopping List Practice after the course of JavaScript from TraversyMedia.
+Shopping List Practice by JavaScript after the course of JavaScript from TraversyMedia.
