@@ -109,6 +109,11 @@ header h1 {
   padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.edit-mode {
+  color: #ccc;
 }
 
 @media (max-width: 500px) {
