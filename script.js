@@ -71,7 +71,7 @@ function addItemToDOM(item) {
 function createButton(classes) {
     const button = document.createElement('button');
     button.className = classes;
-    const icon = createIcon('fa-solid fa-xmark');
+    const icon = createIcon('fa-solid fa-xmark fa-lg');
     button.appendChild(icon);
     return button;
 }
@@ -157,13 +157,16 @@ function removeItemFromStorage(item) {
 
 // Clear Items
 function clearItems() {
-    while (itemList.firstChild) {
-        itemList.removeChild(itemList.firstChild);
-    }
 
-    // Clear from local storage
-    localStorage.removeItem('items');
-    checkUI();
+    if (confirm('Are you sure to clear all items?')) {
+        while (itemList.firstChild) {
+            itemList.removeChild(itemList.firstChild);
+        }
+
+        // Clear from local storage
+        localStorage.removeItem('items');
+        checkUI();
+    }
 };
 
 // Filter items

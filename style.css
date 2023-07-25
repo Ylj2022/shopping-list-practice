@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .container {
@@ -43,7 +43,7 @@ header h1 {
 
 .form-input-filter {
   width: 100%;
-  font-size: 18px;
+  font-size: 14px;
   margin: 20px 0;
   padding: 10px;
   border: none;
@@ -73,10 +73,9 @@ header h1 {
   border: none;
   padding: 0;
   cursor: pointer;
-}
-
-.btn-link:hover {
+  font-size: 16px;
   color: red;
+  /* size of xmark */
 }
 
 .btn-clear {
@@ -92,6 +91,7 @@ header h1 {
 
 .btn-clear:hover {
   background-color: #f1f1f1;
+  color: red;
 }
 
 /* Items */
@@ -110,6 +110,7 @@ header h1 {
   border: 1px solid #ccc;
   border-radius: 5px;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .edit-mode {
