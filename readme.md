@@ -1,4 +1,4 @@
-#Shopping List Project by JavaScript
+## Shopping List Project by JavaScript
 
 This project is the practice after I learn the course [Modern JavaScript From The Beginning 2.0](https://www.traversymedia.com/modern-javascript-2-0) from TraversyMedia.
 
